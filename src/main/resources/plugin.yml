@@ -1,0 +1,21 @@
+name: Tag
+version: '1.0.0'
+main: net.cubo.tag.TagPlugin
+api-version: '1.21'
+description: Salochki - tag minigame
+authors: [cubo]
+
+commands:
+  tag:
+    description: Tag admin commands
+    usage: /tag <help|start|stop|setpoint|...>
+    permission: tag.admin
+  salochki:
+    description: Alias for /tag
+    usage: /salochki <...>
+    permission: tag.admin
+
+permissions:
+  tag.admin:
+    description: Admin commands for Tag
+    default: op

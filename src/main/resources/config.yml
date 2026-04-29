@@ -1,0 +1,49 @@
+world: world
+
+points:
+  lobby:
+    x: 0.5
+    y: 100.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  hunter:
+    x: 100.5
+    y: 80.0
+    z: 100.5
+    yaw: 0.0
+    pitch: 0.0
+  runner1:
+    x: 120.5
+    y: 80.0
+    z: 120.5
+    yaw: 0.0
+    pitch: 0.0
+  runner2:
+    x: 125.5
+    y: 80.0
+    z: 120.5
+    yaw: 0.0
+    pitch: 0.0
+  runner3:
+    x: 130.5
+    y: 80.0
+    z: 120.5
+    yaw: 0.0
+    pitch: 0.0
+
+void-y: 40
+
+timings:
+  vote: 17
+  game: 62
+  end: 27
+  hunter-respawn: 5
+
+min-players: 1
+
+theme: "parkour_tag:theme"
+
+theme-volume: 1.0
+
+countdown-theme: "parkour_tag:countdown"
